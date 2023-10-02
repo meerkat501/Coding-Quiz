@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css"/>
+    <title>Code Quiz</title>
+</head>
+<body>
+    <button id="startBtn">Start Quiz</button>
+    <div id="questionContainer" style="display: none;">
+        <p id="question"></p>
+        <div id="answers"></div>
+    </div>
+    <div id="gameOver" style="display: none;">
+        <p>Game Over!</p>
+        <input type="text" id="initials" placeholder="Enter initials">
+        <button id="saveScoreBtn">Save Score</button>
+    </div>
+    <div id="timer">Time left: <span id="timeLeft">100</span></div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
