@@ -86,6 +86,8 @@ button:disabled {
 
 #saveScoreBtn {
     margin-top: 20px;
+    background-color: green;
+    color: #fff;
 }
 
 #highScoreModal {
@@ -99,4 +101,9 @@ button:disabled {
     border: 1px solid black;
     z-index: 1000;
     list-style: none;
+}
+
+#restartBtn{
+    background-color: red;
+    color: white;
 }
