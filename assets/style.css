@@ -19,7 +19,7 @@ button {
     padding: 10px 15px;
     border: 100px solid 1;
     border-radius: 100px;
-    background-color: #007BFF;
+    background-color: #002fff;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -54,6 +54,10 @@ button:disabled {
     display: flex;
     flex-direction: column;
     gap: 10px; /* Spacing between buttons */
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+
 }
 
 #timeLeft {
@@ -75,10 +79,24 @@ button:disabled {
 
 #initials {
     padding: 10px;
+    list-style: none;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
 
 #saveScoreBtn {
     margin-top: 20px;
+}
+
+#highScoreModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 1000;
+    list-style: none;
 }

@@ -15,9 +15,18 @@
     <div id="gameOver" style="display: none;">
         <p>Game Over!</p>
         <input type="text" id="initials" placeholder="Enter initials">
+        <p id="score">Score: 100</p>
+        <button id="highScoreBtn">High Scores</button>
+
+        <div id="highScoreModal" style="display:none;">
+            <h2>High Scores</h2>
+            <ul id="highScoresList"></ul>
+            <button id="closeHighScores">Close</button>
+        </div>
         <button id="saveScoreBtn">Save Score</button>
+        <button id="restartBtn">Restart</button>
     </div>
-    <div id="timer">Time left: <span id="timeLeft">100</span></div>
+    <div id="timer"> <span id="timeLeft">100</span></div>
     <script src="assets/script.js"></script>
 </body>
 </html>
